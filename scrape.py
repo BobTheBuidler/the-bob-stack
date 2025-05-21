@@ -7,7 +7,7 @@ import json
 
 # ====== SETTINGS ======
 
-PYPI_USER = 'your_username'  # <-- CHANGE this for your actual username
+PYPI_USER = 'bubthebuidler'
 CSV_FILE = 'daily_downloads.csv'
 OUT_DIR = 'package_metadata'
 

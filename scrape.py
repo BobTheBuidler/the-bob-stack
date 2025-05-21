@@ -14,6 +14,20 @@ OUT_DIR = 'package_metadata'
 # ====== FETCH ALL USER PACKAGES FROM PYPI ======
 
 def get_user_packages(username):
+    return [
+        "ez-a-sync",
+        "eth-portfolio-temp",
+        "ypricemagic",
+        "typed-envs",
+        "dank-mids",
+        "evmspec",
+        "checksum-dict",
+        "eth-retry",
+        "cchecksum",
+        "multicall",
+        "dictstruct",
+    ]
+    # TODO: fix
     print(f"Fetching PyPI packages for user: {username}")
     base_url = f'https://pypi.org/user/{username}/'
     resp = requests.get(base_url)

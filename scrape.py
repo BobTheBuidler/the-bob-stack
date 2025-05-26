@@ -26,6 +26,8 @@ def get_user_packages(username):
         "cchecksum",
         "multicall",
         "dictstruct",
+        "dao-treasury",
+        "yearn-treasury",
     ]
     # TODO: fix
     print(f"Fetching PyPI packages for user: {username}")

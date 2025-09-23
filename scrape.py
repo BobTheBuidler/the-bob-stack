@@ -28,6 +28,10 @@ def get_user_packages(username):
         "dictstruct",
         "dao-treasury",
         "yearn-treasury",
+        # faster mypyc-compiled versions of popular libs
+        "faster-async-lru",
+        "faster-eth-abi",
+        "faster-eth-utils",
     ]
     # TODO: fix
     print(f"Fetching PyPI packages for user: {username}")

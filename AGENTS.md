@@ -12,5 +12,6 @@ All agents must follow these rules:
 6) Follow formatting/linting configured in pyproject.toml, setup.cfg, tox.ini, or ruff.toml.
 7) Update dependency lockfiles when adding or removing Python dependencies.
 8) If the branch you're assigned to work on is from a remote (ie origin/master or upstream/awesome-feature) you must ensure you fetch and pull from the remote before you begin your work.
+9) Use one of `paths` or `paths-ignore` in every workflow file to make sure workflows only run when required.
 
 Reference: https://www.conventionalcommits.org/en/v1.0.0/
